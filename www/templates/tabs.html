@@ -1,0 +1,33 @@
+<!--
+Create tabs with an icon and label, using the tabs-positive style.
+Each tab's child <ion-nav-view> directive will have its own
+navigation history that also transitions its views in and out.
+-->
+<ion-tabs class="tabs-icon-top tabs-color-active-positive">
+
+  <!-- Home Tab -->
+  <ion-tab title="Home" icon="icon ion-home" href="#/tab/home">
+    <ion-nav-view name="tab-home"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Pre-Assessment Tab -->
+  <ion-tab title="Pre-Assessment" icon="icon ion-clipboard" href="#/tab/pre-assessment">
+    <ion-nav-view name="tab-pre-assessment"></ion-nav-view>
+  </ion-tab>
+
+  <!-- New Data Sheet Tab -->
+  <ion-tab title="New" icon="icon ion-compose" href="#/tab/new-data-sheet">
+    <ion-nav-view name="tab-new-data-sheet"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Saved Data Sheets Tab -->
+  <ion-tab title="Saved" icon="icon ion-social-buffer " href="#/tab/saved-data-sheets">
+    <ion-nav-view name="tab-saved-data-sheets"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Child Progress Tab -->
+  <ion-tab title="Progress" icon="icon ion-stats-bars" href="#/tab/child-progress">
+    <ion-nav-view name="tab-child-progress"></ion-nav-view>
+  </ion-tab>
+
+</ion-tabs>
